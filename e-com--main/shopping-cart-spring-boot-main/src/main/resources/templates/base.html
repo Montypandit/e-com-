@@ -63,6 +63,10 @@
 
 				</ul>
 
+				<div class="moving-line">
+		<p>Welcome to Monty Sharma e-com shop</p>
+	</div>
+
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<th:block th:if="${user==null}">
 						<li class="nav-item"><a class="nav-link active"
@@ -109,15 +113,27 @@
 
 			</div>
 		</div>
+		
+
 	</nav>
 	<!-- End Navbar -->
 
-	<div th:replace="${content}"></div>
+	<div th:replace="${content}">
+		
+	</div>
 
 	<!-- Start Footer -->
 	<div class="container-fluid p-1 bg-primary text-center text-white"
 		style="margin-top: 250px">
-		<p>ecom.com</p>
+
+		<div class="moving-line">
+		<p>Welcome to Monty e-com shop</p>
+	</div>
+		<span>e-com shop</span>
+		<span style="margin-left: 750px">
+		Contact us:  monty29550@gmail.com</span>
+		
+		
 	</div>
 	<!-- End Footer  -->
 
